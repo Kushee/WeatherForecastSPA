@@ -1,0 +1,51 @@
+@font-face {
+    src: url(font/weathericons-regular-webfont.eot);
+    src: url(font/weathericons-regular-webfont.svg);
+    src: url(font/weathericons-regular-webfont.ttf);
+    src: url(font/weathericons-regular-webfont.woff);
+    src: url(font/weathericons-regular-webfont.woff2);
+}
+html, body, input, select, textarea {
+    font-size: 1.05em !important;
+}
+.main {
+    background-image: -moz-linear-gradient(top, #0099cc, #ffffff);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #0088cc, #ffffff);
+    background-image: -o-linear-gradient(top, #0088cc, #ffffff);
+    background-image: linear-gradient(to bottom, #0088cc, #ffffff);
+}
+#home {
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+.navbar {
+    margin-bottom: 0%;
+    border-bottom: 5px solid black;
+}
+.navbar-header {
+    font-weight: bolder;
+    font-size: 1.5em;
+    color:  #0088cc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.panel {
+    border: 1px solid #0088cc;
+}
+.panel-body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.box {
+    border: 1px solid lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+p a {
+    color: #000000;
+}
+.btn {
+    color: #000000;
+    font-weight: bold;
+}

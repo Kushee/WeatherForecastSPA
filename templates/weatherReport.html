@@ -1,0 +1,18 @@
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <i class="wi" ng-class="className({w: weatherDay})"></i> {{ convertToStandardDate({ date: weatherDay.dt}) | date: dateFormat }}
+        </h3>
+    </div>
+    <div class="panel-body row">
+        <div class="col-md-4 box">
+            Weather: {{ weatherDay.weather[0].description }}
+        </div>
+        <div class="col-md-4 box">
+            Day Temperature: {{ convertToStandardTemp({ temp: weatherDay.temp.day}) }}&deg;F
+        </div>
+        <div class="col-md-4 box">
+            Night Temperature: {{ convertToStandardTemp({ temp: weatherDay.temp.night}) }}&deg;F
+        </div>
+    </div>
+</div>
